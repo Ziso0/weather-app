@@ -12,7 +12,7 @@ function App() {
   let [color, setColor] = useState("navy");
   const cities = ['paris','new york', 'tokyo', 'seoul'];
 
-  const getCurrentLocation = () => { 
+  const getCurrentLocation = () => {  
     
     navigator.geolocation.getCurrentPosition((position)=>{
       let lat = position.coords.latitude;
