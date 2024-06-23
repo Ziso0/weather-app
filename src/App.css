@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+* {
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+  background: #fff url('https://i.pinimg.com/474x/1e/fc/09/1efc099514a41cc4029f37fe42d867a5.jpg') no-repeat center/cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weatherBox {
+  padding: 50px;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  border: 3px solid #8fa4ee;
+  border-radius: 25px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255,0.6);
+}
+
+.weatherBox h1 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #999999;
+}
+
+.weatherBox h2 {
+  font-size: 40px;
+  line-height: 70px;
+  color: #333;
+}
+
+.weatherBox h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: blue;
+}
+
+.weatherBtn {
+  margin-top: 30px;
+}
+
+.weatherBtn button {
+  margin: 0 5px;
+}
